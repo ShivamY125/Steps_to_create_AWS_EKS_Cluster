@@ -54,7 +54,7 @@ eksctl create cluster \
 
 ```
 
-## Step 4:Create EKS Cluster using eksctl
+## Step 4:Delete cluster
 6. After use delete the cluster other wise it will geenrate huge bills.
 command to delete :- 
  ```bash
