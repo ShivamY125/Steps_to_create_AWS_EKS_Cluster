@@ -52,7 +52,10 @@ eksctl create cluster \
  
 ## After few mins we will be able to see cluster live.
 
-After use delete the cluster other wise it will geenrate huge bills.
+```
+
+## Step 4:Create EKS Cluster using eksctl
+6. After use delete the cluster other wise it will geenrate huge bills.
 command to delete :- 
  ```bash
 eksctl delete cluster --name ashokit-cluster4 --region ap-south-1
