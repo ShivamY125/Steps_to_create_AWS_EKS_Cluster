@@ -17,16 +17,16 @@ This guide walks you through setting up an **EKS Cluster** on AWS step by step u
 4. Install AWS CLI latest version using below commands
     ```bash
     sudo apt install unzip
-curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-unzip awscliv2.zip
-sudo ./aws/install
-aws --version
+    curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    unzip awscliv2.zip
+    sudo ./aws/install
+    aws --version
 
 5. Install EKSctl 
      ```bash
    curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
-sudo mv /tmp/eksctl /usr/local/bin
-eksctl version
+   sudo mv /tmp/eksctl /usr/local/bin
+   eksctl version
 
 ## Step 3:Create IAM role & attach to EKS Management Host
 
@@ -54,4 +54,5 @@ eksctl create cluster \
 
 After use delete the cluster other wise it will geenrate huge bills.
 command to delete :- 
+ ```bash
 eksctl delete cluster --name ashokit-cluster4 --region ap-south-1
