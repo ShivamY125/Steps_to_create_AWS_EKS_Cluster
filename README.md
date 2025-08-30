@@ -59,3 +59,15 @@ eksctl create cluster \
 command to delete :- 
  ```bash
 eksctl delete cluster --name ashokit-cluster4 --region ap-south-1
+```
+## To check cluster is up or running or not run a coomand :- 
+
+```bash
+kubectl get nodes
+```
+
+## Diffrence between EKSCTL and Kubectl is :- 
+
+1. EKSCTL is used to create cluster for AWS EKS.
+2. To communicate and deploy on cluster we can use Kubectl.
+
